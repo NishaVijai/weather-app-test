@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BackSide from '../Components/BackSide'
+// import BackSide from '../Components/BackSide'
 import FrontSideView from './FrontSideView';
 
 import '../Components/panel.css';
