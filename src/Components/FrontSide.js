@@ -15,7 +15,7 @@ export default function FrontSide({icon, temperature, apparentTemperature, summa
                 <div className="card-day">{moment().format("MMM Do")} </div>
             </div>
             
-            <img src={clearDay} alt="clear day sky image"/>
+            <img src={clearDay} alt=""/>
 
             <div className="card-row">
                 <div className="card-temperature">{`${temperature}`}
@@ -29,7 +29,7 @@ export default function FrontSide({icon, temperature, apparentTemperature, summa
             <div className="card-row">
                 <div className="card-city">{currentCityName}</div>
                 <button className="card-options">
-                    <img src={optionsImage} alt="options svg image" width={32} />
+                    <img src={optionsImage} alt="" width={32} />
                 </button>
             </div>
         </div>
